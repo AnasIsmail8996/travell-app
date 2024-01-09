@@ -1,0 +1,24 @@
+:root{
+    --1st: #181E4B;
+    --yellow: #F1A501;
+    --TEXT-CLR: #5E6282;
+    --text-heading-color: #1E1D4C;
+    --3rd: #14183E;
+    --white: #FFF;
+    --black: #080809;
+    --text-2: #84829A;
+    --circle: #F5F5F5;
+    --light-color: #DFD7F9;
+}
+
+
+::-webkit-scrollbar{
+    width: 25px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #3da9e3;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: #a7a9bd;
+}

@@ -1,0 +1,135 @@
+.dis-head-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+.dis-head-text p{
+color: var(--TEXT-CLR, #5E6282);
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.dis-head-text h2{
+  
+    color: var(--3rd, #14183E);
+text-align: center;
+font-family: poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+
+
+/* des-card-prnt */
+.des-card-prnt{
+    width: 314px !important;  
+  height: 462px !important;
+ border: none !important;
+ background: transparent !important;
+  
+}
+
+.des-img{
+    position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.des-img img{  
+}
+
+.names-place{
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+    width: 315px;
+    height: 130px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 24px 24px;
+background: var(--white, #FFF);
+}
+
+.names-place-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   margin-top: 2rem;
+    gap: 85px;
+}
+.names-place-text p{
+    color: var(--TEXT-CLR, #5E6282);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 124.5%; /* 22.41px */
+}
+
+.daysTrip{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+margin-left: 2rem;
+gap: 15px;
+}
+.daysTrip p{
+    color: var(--TEXT-CLR, #5E6282);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 124.5%; /* 19.92px */
+}
+
+
+
+@media only screen and (min-width:575.98px) and (max-width:767.98px){
+    .des-card-prnt{
+        width: 314px !important;  
+      height: 462px !important;
+   margin-left: 7rem;
+      
+    }  
+
+    
+}
+
+@media only screen and (min-width:425.98px) and (max-width:575.98px){
+    .des-card-prnt{
+        width: 314px !important;  
+      height: 462px !important;
+   margin-left: 4rem;
+      
+    }    
+}
+
+@media only screen and (min-width:320.98px) and (max-width:425.98px){
+    .des-card-prnt{
+        width: 295px !important;  
+      height: 462px !important;
+   margin-left: 0rem;
+      
+    }  
+
+    .names-place{
+        position: absolute;
+        bottom: 0rem;
+        left: -0.6rem;
+        width: 315px;
+        height: 130px;
+        flex-shrink: 0;
+        border-radius: 0px 0px 24px 24px;
+    background: var(--white, #FFF);
+    }
+}

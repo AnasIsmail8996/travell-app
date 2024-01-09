@@ -1,0 +1,78 @@
+.nb-parent{  
+}
+
+.nav-img-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.nav-img-1 img{
+    width: 114.912px;
+    height: 33.994px;
+    flex-shrink: 0;
+}
+
+.nav-merge{
+    margin-left: 15rem;
+    gap: 25px;
+    color: var(--1st, #212832);
+    font-family: poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1199.98px){
+    .nav-merge{
+        margin-left: 15rem;
+        gap: 25px;
+        color: var(--1st, #212832);
+        font-family: poppins;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    
+    }
+    
+}
+@media only screen and (min-width:767.98px) and (max-width:992.98px){
+    .nav-merge{
+        margin-left: 18rem;
+        gap: 25px;
+        color: var(--1st, #212832);
+        font-family: poppins;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    
+    }
+}
+@media only screen and (min-width:575.98px) and (max-width:767.98px){
+    .nav-merge{
+        margin-left: 15rem;
+        gap: 25px;
+       
+    
+    }
+}
+@media only screen and (min-width:425.98px) and (max-width:575.98px){
+    .nav-merge{
+        margin-left: 15rem;
+        gap: 25px;
+       
+    
+    }
+}
+@media only screen and (min-width:320.98px) and (max-width:425.98px){
+    .nav-merge{
+        margin-left: 10rem;
+        gap: 25px;
+       
+    
+    }
+}
